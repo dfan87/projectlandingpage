@@ -12,8 +12,7 @@ body {
 }
 
 .header {
-  font-size: 24px;
-  color: #F9FAF8;
+  margin: 20px;
   flex: 1;
 }
 
@@ -21,12 +20,15 @@ ul {
   display: flex;
   list-style-type: none;
   flex: 1;
-  gap: 8px;
+  gap: 20px;
   margin: 0;
   padding: 10px;
 }
 
-
+img {
+  border-radius: 50%;
+  max-width: 100px;
+}
 
 a {
   font-size: 18px;
@@ -35,5 +37,5 @@ a {
 }
 
 .header, ul {
-  margin-bottom:48px;
+  margin-bottom:20px;
 }
