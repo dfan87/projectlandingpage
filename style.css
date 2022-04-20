@@ -39,3 +39,18 @@ a {
 .header, ul {
   margin-bottom:20px;
 }
+
+.body {
+  flex-direction: column;
+  background-color: teal;
+}
+
+.herotext {
+  flex: 1;
+  color: #E5E7EB;
+  font-family:'Gill Sans';
+  font-size: 48px;
+  font-weight: 800;
+  margin: 24px;
+}
+
